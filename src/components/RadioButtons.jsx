@@ -2,11 +2,11 @@ import { GroupUser, User } from "./icons";
 
 function RadioButtons() {
 	return (
-		<div className="flex sm:flex-row flex-col gap-3 items-center justify-center h-full">
+		<div className="flex sm:flex-row flex-col gap-3 md:items-center justify-center h-full w-full">
 			<div>
 				<input className="hidden peer" id="radio_1" type="radio" name="radio" />
 				<label
-					className="flex flex-col  py-4 px-5 border border-gray-100 cursor-pointer peer-checked:border-violet-500 rounded-md"
+					className="flex flex-col py-4 px-5 border border-gray-100 cursor-pointer peer-checked:border-violet-500 rounded-md"
 					htmlFor="radio_1">
 					<User />
 					<h4 className="mb-2 mt-4 text-gray-700/90 font-bold text-base">
@@ -18,7 +18,7 @@ function RadioButtons() {
 				</label>
 			</div>
 			<div>
-				<input className="hidden peer " id="radio_2" type="radio" name="radio" />
+				<input className="hidden peer" id="radio_2" type="radio" name="radio" />
 				<label
 					className="flex flex-col py-4 px-5 border border-gray-100 cursor-pointer peer-checked:border-violet-500 rounded-md transition-all duration-100 ease-linear"
 					htmlFor="radio_2">
